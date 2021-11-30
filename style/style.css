@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Comforter+Brush&family=Dancing+Script&display=swap');
-/*@font-face{
+@font-face{
     font-family: 'AdventPro',cursive;
     src: url(../fonts/AdventPro-Medium.ttf);
-}*/
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Comforter Brush',sans-serif;
+    font-family: 'AdventPro',cursive;
 }
 h1{
     font-size: 3.4rem;
