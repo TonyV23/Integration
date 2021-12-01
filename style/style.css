@@ -3,6 +3,7 @@
     font-family: 'AdventPro',cursive;
     src: url(../fonts/AdventPro-Medium.ttf);
 }*/
+/***************************CONFIGURATION GENERALE ******************/
 *{
     margin: 0;
     padding: 0;
@@ -46,6 +47,7 @@ p{
     color: skyblue;
 
 }
+/*******************************CONFIGURATION UNIQUE***********************************/
 header{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -65,4 +67,12 @@ header{
     background: url(../img/img-left.jpg) center/cover;
 }
 
-/******************************************/
+/********************SECTION 2**********************/
+.section-2{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    min-height: 400px;
+}
+.section-2 .img{
+    background: url(../img/img-right.jpg) center/cover;
+}
