@@ -47,12 +47,22 @@ p{
 
 }
 header{
-    min-height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    min-height: 100vh;
 }
 .img-banner{
     background: url(../img/banner.jpg) right/cover;
 }
 
 /***********************SECTION 1**************************/
+.section-1{
+    display: grid;
+    grid-template-columns: 37% 63%;
+    min-height: 500px;
+}
+.section-1 .img{
+    background: url(../img/img-left.jpg) center/cover;
+}
+
+/******************************************/
