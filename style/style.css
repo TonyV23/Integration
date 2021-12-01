@@ -44,7 +44,7 @@ p{
     transition: 0.9s ease-in-out;
 }
 .button:hover, footer a:hover{
-    border: 1px solid skyblue;
+    /*border: 1px solid skyblue;*/
     color: skyblue;
 
 }
@@ -116,4 +116,37 @@ input[type="text"]:focus, textarea:focus {
 textarea{
     resize: none;
     height: 180px;
+}
+/************************FOOTER*****************************/
+footer{
+    padding: 70px 0 90px;
+    position: relative;
+}
+footer:before{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    background-color: #0000002d;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    margin: 0 auto;
+    min-width: 300px;
+}
+footer a{
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
 }
